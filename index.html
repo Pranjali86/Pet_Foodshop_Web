@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitter - High Quality Pet Food</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/images/favicon.png">
+</head>
+<body>
+
+<header class="header" data-header>
+  <div class="container">
+    <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler></button>
+    <a href="#" class="logo">Kitter</a>
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+        <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+        <li><a href="#shop" class="navbar-link" data-nav-link>Shop</a></li>
+        <li><a href="#" class="navbar-link" data-nav-link>Collections</a></li>
+        <li><a href="#" class="navbar-link" data-nav-link>Blogs</a></li>
+        <li><a href="#" class="navbar-link" data-nav-link>Contact</a></li>
+      </ul>
+      <a href="#" class="navbar-action-btn">Log In</a>
+    </nav>
+    <div class="header-actions">
+      <button class="action-btn" aria-label="Search"></button>
+      <button class="action-btn user" aria-label="User"></button>
+      <button class="action-btn" aria-label="Cart"><span class="btn-badge">0</span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article>
+
+    <!-- Hero Section -->
+    <section class="section hero has-bg-image" id="home" aria-label="home" style="background-image: url('./assets/images/hero-banner.jpg')">
+      <div class="container">
+        <h1 class="h1 hero-title"><span class="span">High Quality</span> Pet Food</h1>
+        <p class="hero-text">Sale up to 40% off today</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="section category" aria-label="category">
+      <div class="container">
+        <h2 class="h2 section-title"><span class="span">Top</span> Categories</h2>
+        <ul class="has-scrollbar">
+          <li><div class="category-card"><figure class="card-banner img-holder"><img src="./assets/images/category-1.jpg" alt="Cat Food" class="img-cover"></figure><h3 class="h3"><a href="#" class="card-title">Cat Food</a></h3></div></li>
+          <li><div class="category-card"><figure class="card-banner img-holder"><img src="./assets/images/category-2.jpg" alt="Cat Toys" class="img-cover"></figure><h3 class="h3"><a href="#" class="card-title">Cat Toys</a></h3></div></li>
+          <li><div class="category-card"><figure class="card-banner img-holder"><img src="./assets/images/category-3.jpg" alt="Dog Food" class="img-cover"></figure><h3 class="h3"><a href="#" class="card-title">Dog Food</a></h3></div></li>
+          <li><div class="category-card"><figure class="card-banner img-holder"><img src="./assets/images/category-4.jpg" alt="Dog Toys" class="img-cover"></figure><h3 class="h3"><a href="#" class="card-title">Dog Toys</a></h3></div></li>
+          <li><div class="category-card"><figure class="card-banner img-holder"><img src="./assets/images/category-5.jpg" alt="Dog Supplements" class="img-cover"></figure><h3 class="h3"><a href="#" class="card-title">Dog Supplements</a></h3></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="section offer" aria-label="offer">
+      <div class="container">
+        <ul class="grid-list">
+          <li><div class="offer-card has-bg-image img-holder" style="background-image: url('./assets/images/offer-banner-1.jpg')"><p class="card-subtitle">Selected Items. Online Only.</p><h3 class="h3 card-title">Hot Summer <span class="span">Deals</span></h3><a href="#" class="btn">Read More</a></div></li>
+          <li><div class="offer-card has-bg-image img-holder" style="background-image: url('./assets/images/offer-banner-2.jpg')"><p class="card-subtitle">Treats & Grooming</p><h3 class="h3 card-title">Spoil your true <span class="span">love</span></h3><a href="#" class="btn">Read More</a></div></li>
+          <li><div class="offer-card has-bg-image img-holder" style="background-image: url('./assets/images/offer-banner-3.jpg')"><p class="card-subtitle">Our Brand You Will Love</p><h3 class="h3 card-title">New in this <span class="span">year</span></h3><a href="#" class="btn">Read More</a></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="section product" id="shop" aria-label="product">
+      <div class="container">
+        <h2 class="h2 section-title"><span class="span">Best</span> Seller</h2>
+        <ul class="grid-list">
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-1.jpg" alt="Product 1" class="img-cover default"><img src="./assets/images/product-1_0.jpg" alt="Product 1" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(1)</span><h3 class="h3"><a href="#" class="card-title">Commodo leo sed porta</a></h3>$15.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-2.jpg" alt="Product 2" class="img-cover default"><img src="./assets/images/product-2_0.jpg" alt="Product 2" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Purus consequat congue sit</a></h3>$45.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-3.jpg" alt="Product 3" class="img-cover default"><img src="./assets/images/product-3_0.jpg" alt="Product 3" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Morbi vel arcu scelerisque</a></h3>$45.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-4.jpg" alt="Product 4" class="img-cover default"><img src="./assets/images/product-4_0.jpg" alt="Product 4" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Morbi vel arcu scelerisque</a></h3>$49.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-5.jpg" alt="Product 5" class="img-cover default"><img src="./assets/images/product-5_0.jpg" alt="Product 5" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Morbi vel arcu scelerisque</a></h3>$85.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-6.jpg" alt="Product 6" class="img-cover default"><img src="./assets/images/product-6_0.jpg" alt="Product 6" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Nam justo libero porta ege</a></h3>$85.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-7.jpg" alt="Product 7" class="img-cover default"><img src="./assets/images/product-7_0.jpg" alt="Product 7" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Nam justo libero porta ege</a></h3>$85.00</div></div></li>
+          <li><div class="product-card"><div class="card-banner img-holder"><img src="./assets/images/product-8.jpg" alt="Product 8" class="img-cover default"><img src="./assets/images/product-8_0.jpg" alt="Product 8" class="img-cover hover"><button class="card-action-btn" aria-label="Add to Cart"></button></div><div class="card-content"><span class="span">(0)</span><h3 class="h3"><a href="#" class="card-title">Etiam commodo leo sed</a></h3>$55.00</div></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="section service" aria-label="service">
+      <div class="container">
+        <img src="./assets/images/service-image.png" alt="" class="img">
+        <h2 class="h2 section-title"><span class="span">What your pet needs,</span> when they need it.</h2>
+        <ul class="grid-list">
+          <li><div class="service-card"><figure><img src="./assets/images/service-icon-1.png" alt="service"></figure><h3>Free Same-Day Delivery</h3><p>Order by 2pm local time to get free delivery on orders $35+ today.</p></div></li>
+          <li><div class="service-card"><figure><img src="./assets/images/service-icon-2.png" alt="service"></figure><h3>30 Day Return</h3><p>35% off your first order plus 5% off all future orders.</p></div></li>
+          <li><div class="service-card"><figure><img src="./assets/images/service-icon-3.png" alt="service"></figure><h3>Secure Payment</h3><p>25% off your online order of $50+. Available at most locations.</p></div></li>
+          <li><div class="service-card"><figure><img src="./assets/images/service-icon-4.png" alt="service"></figure><h3>24/7 Support</h3><p>Shop online to get orders over $35 shipped fast and free.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg')">
+      <div class="container">
+        <figure><img src="./assets/images/cta-banner.png" alt="cat" class="w-100"></figure>
+        <div class="cta-content">
+          <img src="./assets/images/cta-icon.png" alt="taste guarantee">
+          <h2 class="h2 section-title">Taste it, love it or we’ll replace it… Guaranteed!</h2>
+          <p>At Petio, we believe your dog and cat will love their food so much that if they don’t … we’ll help you find a replacement. That’s our taste guarantee.</p>
+          <a href="#" class="btn">Find out more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Section -->
+    <section class="section brand" aria-label="brand">
+      <div class="container">
+        <h2 class="h2 section-title"><span class="span">Popular</span> Brands</h2>
+        <ul class="has-scrollbar">
+          <li><div class="brand-card"><img src="./assets/images/brand-1.jpg" alt="brand"></div></li>
+          <li><div class="brand-card"><img src="./assets/images/brand-2.jpg" alt="brand"></div></li>
+          <li><div class="brand-card"><img src="./assets/images/brand-3.jpg" alt="brand"></div></li>
+          <li><div class="brand-card"><img src="./assets/images/brand-4.jpg" alt="brand"></div></li>
+          <li><div class="brand-card"><img src="./assets/images/brand-5.jpg" alt="brand"></div></li>
+        </ul>
+      </div>
+    </section>
+
+  </article>
+</main>
+
+<!-- Footer -->
+<footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="#" class="logo">Kitter</a>
+        <p>If you have any question, please contact us at <a href="mailto:support@gmail.com">support@gmail.com</a></p>
+        <ul class="contact-list">
+          <li><address>30 Buttonwood St. Pataskala OH 43062</address></li>
+          <li><a href="tel:+16234567891011">(+1)-6234-56-789-1011</a></li>
+        </ul>
+      </div>
+      <ul class="footer-list">
+        <li><p>Corporate</p></li>
+        <li><a href="#">Careers</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQs</a></li><li><a href="#">Vendors</a></li><li><a href="#">Affiliate Program</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><p>Information</p></li>
+        <li><a href="#">Online Store</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Shipping Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Track Order</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><p>Services</p></li>
+        <li><a href="#">Grooming</a></li><li><a href="#">Positive Dog Training</a></li><li><a href="#">Veterinary Services</a></li>
+        <li><a href="#">Petco Insurance</a></li><li><a href="#">Pet Adoption</a></li><li><a href="#">Resource Center</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2022 Made with ♥ by <a href="#">codewithsadee</a></p>
+      <img src="./assets/images/payment.png" alt="payment method">
+    </div>
+  </div>
+</footer>
+
+<a href="#top" class="back-top-btn" aria-label="Back to top"></a>
+<script src="script.js"></script>
+
+</body>
+</html>
